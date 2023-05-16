@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body{
+  height: 100vh;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.Navbar{
+  display: flex;
+  justify-content: flex-start;
+  padding: 1rem 2rem;
+  background-color: #333;
+
+}
+h2{
+  color: white;
+}
+
+.Footer{
+  position: fixed;
+  bottom: 0;
+  background-color: darkblue;
+  width: 100%;
+  padding: 1.5rem;
+  color: white;
+  text-align: center;
+}
+
+.Hero{
+display: grid;
+place-items: center;
+margin-top: 300px;
+}
+
+.HeroP{
+font-size: 3rem;
+
+}
+
+button{
+padding: 1rem;
+border-color: red;
+color: red;
+margin: .5rem;
+}
+
+button:hover{
+  background-color: red;
+  color: white;
+}
